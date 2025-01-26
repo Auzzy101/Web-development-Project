@@ -2,44 +2,30 @@
   <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML PROJECT BY A.PRINSLOO</title>
+    <title>Web Development PROJECT BY A.PRINSLOO</title>
+        <!-- Link to the external CSS file -->
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
       <h1>Austin Prinsloo</h1>
-      <h2><p>Doing what you always did, and expecting a different result, is the definition of insanity</p></h2>
+      <h2><p>"Doing what you always did, and expecting a different result, is the definition of insanity"</p></h2>
   <!-- Navigation Bar --> 
 
   <nav> 
 
-    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;"> 
+    <ul>
+            <li><a href="#home">Home</a></li>
 
-        <li style="float: left;"> 
+            <li><a href="#about">About Me</a></li>
 
-            <a href="#home" style="display: block; color:antiquewhite ; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a> 
+            <li><a href="#skills">Skills</a></li>
 
-        </li> 
-
-        <li style="float: left;"> 
-
-            <a href="#about" style="display: block; color:aqua; text-align: center; padding: 14px 16px; text-decoration: none;">About Me</a> 
-
-        </li> 
-
-        <li style="float: left;"> 
-
-            <a href="#skills" style="display: block; color:aquamarine ; text-align: center; padding: 14px 16px; text-decoration: none;">Skills</a> 
-
-        </li> 
-
-        <li style="float: left;"> 
-
-            <a href="#contact" style="display: block; color:azure ; text-align: center; padding: 14px 16px; text-decoration: none;">Contact</a> 
-
-        </li> 
+            <li><a href="#contact">Contact</a></li>
 
     </ul> 
 
 </nav> 
+
 <!--Content Section-->
 <section id="home"> 
   <h1>Welcome to My Portfolio</h1>
@@ -47,12 +33,13 @@
   </section>
 
   <section id="about">
-    <h2>About Me</h2>
-    <p>Hi, I'm Austin Prinsloo, I'm 26 years old, living in South Africa.<br>
-      In my early 20s, I suddenly developed a passion for computers, which lead me where I am today,<br>
-    I just completed my python developer courses on sololearn which lead me to <i><b>Web Development</b></i><br>
-  And ever since I just love it, this is my HTML project, hope you're find it intresting.</p>
-  <img src="download 2.1.png" alt="My Photo" width="300">
+    <div class="about-container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Austin Prinsloo, I'm 26 years old, living in South Africa. In my early 20s, I suddenly developed a passion for computers, which led me to where I am today. I just completed my Python Developer courses on SoloLearn, which led me to Web Development. And ever since, I’ve loved it! This is my HTML project. Hope you find it interesting.</p>
+        <img src="download 2.1.png" alt="My Photo" class="about-photo">
+    </div>
+</section>
+
 
   </section>
 
@@ -64,9 +51,13 @@
       <li>JS</li>
       <li>Python</li>
       <li>Project Management</li>
-      <li>Problem-Solving</li>
+      <li>Problem-Solving/li>
       <li>Trouble-shooting</li>
       <li>Team Work</li>
+      <li>Creativity</li>
+      <li>Energetic</li>
+      <li>Transparent</li>
+      <li>Goal Driven & Orientated</li>
 
     </ul>  
   </section>
