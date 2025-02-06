@@ -3,94 +3,83 @@
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development PROJECT BY A.PRINSLOO</title>
-        <!-- Link to the external CSS file -->
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-      <h1>Austin Prinsloo</h1>
-      <h2><p>"Doing what you always did, and expecting a different result, is the definition of insanity"</p></h2>
-  <!-- Navigation Bar --> 
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Austin Prinsloo</h1>
+    <h2><p>"Doing what you always did, and expecting a different result, is the definition of insanity"</p></h2>
 
-  <nav> 
+    <!-- Navigation Bar --> 
+    <nav> 
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul> 
+    </nav>
 
-    <ul>
-            <li><a href="#home">Home</a></li>
+    <!--Content Section-->
+    <section id="home"> 
+      <h1>Welcome to My Portfolio</h1>
+      <p>This is the Home section.</p> 
+    </section>
 
-            <li><a href="#about">About Me</a></li>
-
-            <li><a href="#skills">Skills</a></li>
-
-            <li><a href="#contact">Contact</a></li>
-
-    </ul> 
-
-</nav> 
-
-<!--Content Section-->
-<section id="home"> 
-  <h1>Welcome to My Portfolio</h1>
-  <p>This is the Home section.</p> 
-  </section>
-
-  <section id="about">
-    <div class="about-container">
+    <section id="about">
+      <div class="about-container">
         <h2>About Me</h2>
         <p>Hi, I'm Austin Prinsloo, I'm 26 years old, living in South Africa. In my early 20s, I suddenly developed a passion for computers, which led me to where I am today. I just completed my Python Developer courses on SoloLearn, which led me to Web Development. And ever since, I’ve loved it! This is my Web Development project. Hope you find it interesting.</p>
         <img src="download 2.1.png" alt="My Photo" class="about-photo">
-    </div>
-</section>
+      </div>
+    </section>
 
+    <section id="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>Python</li>
+        <li>Project Management</li>
+        <li>Problem-Solving</li>
+        <li>Trouble-shooting</li>
+        <li>Team Work</li>
+        <li>Creativity</li>
+        <li>Energetic</li>
+        <li>Transparent</li>
+        <li>Goal Driven & Orientated</li>
+      </ul>  
+    </section>
 
-  </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto: Austinprinsloo32@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
-  <section id="skills">
-    <h2>My Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JS</li>
-      <li>Python</li>
-      <li>Project Management</li>
-      <li>Problem-Solving/li>
-      <li>Trouble-shooting</li>
-      <li>Team Work</li>
-      <li>Creativity</li>
-      <li>Energetic</li>
-      <li>Transparent</li>
-      <li>Goal Driven & Orientated</li>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required><br><br>
 
-    </ul>  
-  </section>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea><br><br>
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px 0;">
+      <p>&copy; 2025 Austin Prinsloo. All rights reserved.</p>
+      <p>
+          Follow me on 
+          <a href="https://www.linkedin.com/in/austin-prinsloo-924b91218" style="color: #00eeff;" target="_blank">LinkedIn</a>
+          <a href="https://www.sololearn.com/en/profile/30667846" style="color: #00eeff;" target="_blank">Sololearn</a>
+      </p>
+    </footer>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form action="mailto: Austinprinsloo32@gmail.com" method="post" enctype="text/plain">
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    <!-- Dark mode button -->
+    <button id="theme-toggle">Toggle Dark Mode</button>
 
-      <label for="email">Email:</label><br>
-      <input type="text" id="email" name="email" placeholder=" Enter your email"> required<br><br>
-
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea><br><br>
-      
-      <button type="submit">Send</button>
-    </form>
-
-  </section>
-  
-  <footer style="background-color: #333; color: white; text-align: center; padding: 10px 0;">
-    <p>&copy; 2025 Austin Prinsloo. All rights reserved.</p>
-    <p>
-        Follow me on 
-        <a href="https://www.linkedin.com/in/austin-prinsloo-924b91218" style="color: #00eeff;" target="_blank">LinkedIn</a>
-        <a href="https://www.sololearn.com/en/profile/30667846" style="color: #00eeff;" target="_blank">Sololearn</a>
-    </p>
-</footer>
-
-
-
-  
-
-    </body>
+    <script src="script.js"></script>
+  </body>
 </html>
